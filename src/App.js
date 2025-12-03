@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Home from "./components/Home";
+import About from "./components/About";
+import Programs from "./components/Programs";
+import Faculty from "./components/Faculty";
+import Contact from "./components/Contact";
 
-function App() {
+/*
+  Simple single-page app routing by internal state. 
+  This avoids adding React Router for a school project.
+*/
+export default function App() {
+  const [route, setRoute] = useState("home");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="site">
+      <header className="site-header">
+        <div className="brand">
+          <h1>IT Department</h1>
+          <p className="tagline">Technology, learning, and innovation</p>
+        </div>
       </header>
+
+      <main className="site-main" role="main">
+        <Home/>
+        <About/>
+        <Programs/>
+        <Faculty/>
+        <Contact/>
+      </main>
     </div>
   );
 }
-
-export default App;
