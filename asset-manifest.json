@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/IT-Department-Website/static/css/main.f954b815.css",
-    "main.js": "/IT-Department-Website/static/js/main.f0a0e087.js",
+    "main.css": "/IT-Department-Website/static/css/main.60a483db.css",
+    "main.js": "/IT-Department-Website/static/js/main.f0c8ad2f.js",
     "index.html": "/IT-Department-Website/index.html",
-    "main.f954b815.css.map": "/IT-Department-Website/static/css/main.f954b815.css.map",
-    "main.f0a0e087.js.map": "/IT-Department-Website/static/js/main.f0a0e087.js.map"
+    "main.60a483db.css.map": "/IT-Department-Website/static/css/main.60a483db.css.map",
+    "main.f0c8ad2f.js.map": "/IT-Department-Website/static/js/main.f0c8ad2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f954b815.css",
-    "static/js/main.f0a0e087.js"
+    "static/css/main.60a483db.css",
+    "static/js/main.f0c8ad2f.js"
   ]
 }
