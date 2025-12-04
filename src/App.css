@@ -1,5 +1,5 @@
 :root {
-  --accent: #0b6e4f;
+  --accent: #298fb0;
   --muted: #666;
   --bg: #f9fafb;
   --card: #fff;
@@ -10,7 +10,6 @@
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* basic reset */
 * {
   box-sizing: border-box;
 }
@@ -93,7 +92,7 @@ nav.nav {
   display: block;
 }
 
-/* home hero */
+/* home */
 .hero {
   display: grid;
   grid-template-columns: 1fr 380px;
@@ -135,7 +134,7 @@ nav.nav {
 }
 .program h3 {
   margin-top: 0;
-  color: #0a5b40;
+  color: #298fb0;
 }
 
 /* faculty list */
@@ -152,13 +151,6 @@ nav.nav {
   display: flex;
   gap: 1rem;
   align-items: center;
-}
-.faculty-avatar {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: #dfe;
-  display: inline-block;
 }
 
 /* contact form */
@@ -194,7 +186,6 @@ nav.nav {
   cursor: pointer;
 }
 
-/* footer */
 .site-footer {
   background: #fff;
   padding: 1rem;

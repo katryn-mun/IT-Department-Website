@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section className="hero-card" aria-labelledby="aboutTitle">
-      <h2 id="aboutTitle">About the Department</h2>
+      <h2 id="aboutTitle">About the IT Department</h2>
       <p>
         The IT Department was founded to provide practical and theoretical education in computing.
         Our mission is to produce graduates who are ready for the evolving tech workforce and who value ethical practice.

@@ -3,7 +3,7 @@ import React from "react";
 const programs = [
   {
     title: "BS Computer Science",
-    summary: "Four-year degree focused on software development, algorithms, and systems.",
+    summary: "Two year degree focused on software development, algorithms, and systems.",
     details: [
       "Core: Data Structures, Algorithms, OS",
       "Electives: AI, Mobile Dev, Databases",

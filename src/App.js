@@ -5,19 +5,14 @@ import Programs from "./components/Programs";
 import Faculty from "./components/Faculty";
 import Contact from "./components/Contact";
 
-/*
-  Simple single-page app routing by internal state. 
-  This avoids adding React Router for a school project.
-*/
 export default function App() {
   const [route, setRoute] = useState("home");
-
   return (
     <div className="site">
       <header className="site-header">
         <div className="brand">
-          <h1>IT Department</h1>
-          <p className="tagline">Technology, learning, and innovation</p>
+          <h1>Broward College IT Department</h1>
+          <p className="tagline">Davie, Florida</p>
         </div>
       </header>
 

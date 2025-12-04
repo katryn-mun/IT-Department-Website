@@ -8,7 +8,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // simple client-side validation
     if (!form.name || !form.email || !form.message) {
       alert("Please complete all fields before sending.");
       return;
@@ -39,10 +38,10 @@ export default function Contact() {
         </form>
 
         <aside className="hero-card" aria-labelledby="contact-info">
-          <h3 id="contact-info">Department Office</h3>
-          <p>Address: 123 Campus Ave, Example City</p>
-          <p>Phone: (555) 555-5555</p>
-          <p>Email: <a href="mailto:it@example.edu">it@example.edu</a></p>
+          <h3 id="contact-info">IT Department Office</h3>
+          <p>Address: 3501 Davie Rd, Davie, FL 33314</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Email: <a href="mailto:it@example.edu">it@Broward.edu</a></p>
         </aside>
       </div>
     </section>
